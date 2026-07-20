@@ -11,7 +11,7 @@ use App\Models\User;
 class Post extends Model
 {
     use HasFactory;
-    protected $fillable = ['title', 'content', 'user_id', 'is_featured'];
+    protected $fillable = ['title', 'content', 'image','user_id', 'is_featured', ];
 
     public function user()
     {
